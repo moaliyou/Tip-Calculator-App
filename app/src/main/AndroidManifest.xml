@@ -14,7 +14,7 @@
         android:theme="@style/Theme.TipTime"
         tools:targetApi="31">
         <activity
-            android:name=".CardActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.TipTime">
             <intent-filter>
