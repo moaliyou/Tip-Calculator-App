@@ -139,7 +139,7 @@ internal fun calculateTip(
     var tip = tipPercent / 100 * amount
     if (roundUp)
         tip = kotlin.math.ceil(tip)
-    return NumberFormat.getNumberInstance().format(tip)
+    return NumberFormat.getCurrencyInstance().format(tip)
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
